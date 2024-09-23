@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <!-- Título para el navegador y los buscadores -->
+    <title>Proyecto HTML Sergio</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta name="description" content="Esta es la portada de mi primer proyecto de HTML">
+
+    <!-- Palabras clave para los buscadores -->
+    <meta name="keywords" content="web">
+
+    <!-- Autor de la página -->
+    <meta name="author" content="@sergiovez">
+
+    <!-- Favicon de la página -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Codificación-->
+    <meta charset="UTF-8">
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Para algunos navegadores móviles -->
+    <meta name="theme-color" content="#1e7bbf">
+
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="conquer.png" alt="Logo de ConquerBlocks" width="336" height="40">
+        </figure>
+        <nav>
+            <ul>
+                <li>Home</li>
+                <li><a href="./vistas/Quienes_somos.html">Quienes somos</a></li>
+                <li><a href="./vistas/Cursos.html">Cursos</a></li>
+                <li><a href="./vistas/Blog.html">Blog</a></li>
+                <li><a href="./vistas/Registro.html">Registro</a></li>
+                <li><a href="./vistas/Login.html">Login</a></li>
+                <li><a href="./vistas/Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <picture>
+            <source media="(width >= 900px)"
+                    srcset="web_large.png"> 
+            <source media="(width >= 600px) and (width < 900px)"
+                    srcset="web_medium.png">
+            <source media="(width < 600px)"
+                    srcset="web_small.png">
+            <img src="web_large.png" alt="Imagen de la web" width="1000" height="236">
+        </picture>
+        <!--Una sección con un pequeño texto resumen de quienes somos y enlace a la sección-->
+        <section>
+            <h3>Conquer Blocks es la mayor academia de programación en habla hispana, y la 
+                que cuenta con mayores garantías de empleo. <br> Aquí podrás aprender sobre 
+                Desarrollo Full-Stack, Desarrollo Blockchain, Inteligencia Artificial y 
+                Ciberseguridad.</h3>
+            <p>
+                Visitar la sección <a href="./vistas/Quienes_somos.html"><strong>Quienes somos</strong></a>
+            </p>
+        </section>
+        <video src="./video/Video_Conquer.mp4" width="660" height="375" controls="on" preload="on"></video>
+        <!--Listado con la información de los últimos 2 cursos con enlace a ver todos los cursos-->
+        <br> 
+        <section>
+            <h2>Ultimos cursos</h2>
+            <table>
+                <tr>
+                    <article>
+                        <td width="350">
+                            <a href="./cursos/Full-Stack.html"><img src="https://cdn.prod.website-files.com/63c2c7b1f3d9c51c32335fb0/666034277e4153d40152ef68_Full-stack-conquerblocks-p-500.jpg"
+                                alt="Curso Full-Stack" width="300" height="180"></a>
+                            <h3>Máster en Desarrollo Web Full-Stack</h3>
+                            <p><strong>El más vendido.</strong> Consigue la profesión de tus <br> 
+                                sueños aprendiendo a programar desde 0.
+                                <ul>
+                                    <li>No requiere conocimientos previos</li>
+                                    <li>Garantía de empleo. Si no consigues <br> empleo, te 
+                                        devolvemos el dinero</li>
+                                </ul>
+                            </p>
+                        </td>
+                    </article>
+                    <article>
+                        <td width="350">
+                            <a href="./cursos/Blockchain.html"><img src="https://cdn.prod.website-files.com/63c2c7b1f3d9c51c32335fb0/6660365ef45919644a45fb87_Portraitmujer-Recuperado-p-500.jpg"
+                                alt="Curso Blockchain" width="300" height="180"></a>
+                            <h3>Máster en Desarrollo Blockchain</h3>
+                            <p>Ideal para programadores que quieren crecer <br> profesionalmente 
+                                aprendiendo una <br> especialización
+                                <ul>
+                                    <li>Programa lider en el mercado</li>
+                                    <li>Requiere de conocimientos previos</li>
+                                </ul>
+                            </p>
+                        </td>
+                    </article>
+                </tr>
+            </table>
+            <p>
+                Visitar la sección <a href="./vistas/Cursos.html"><strong>Cursos</strong></a>
+            </p>
+        </section>
+        <br>
+        <!--Listado de las 2 últimas noticias y enlace a ver todas las noticias-->
+        <section>
+            <h2>Ultimas noticias</h2>
+            <table>
+                <tr>
+                    <article>
+                        <td width="350">
+                            <a href="./blogs/Blog_Junior.html"><img src="https://cdn.prod.website-files.com/63c2c7b1f3d9c5a405335fd5/65e1d26a852c806c779dc0e3_grupo-programadores-ordenadores-1920x1280-p-800.jpg"
+                                alt="Blog_Junior" width="300" height="180"></a>
+                            <h3>Desarrollo Full-Stack para <br> perfiles junior</h3>
+                            <p>En el dinámico mundo del desarrollo web, <br>
+                                el rol de desarrollador Full Stack ha <br>
+                                emergido como una carrera codiciada, <br> 
+                                ofreciendo la promesa de dominar tanto el <br>
+                                frontend como el...
+                            </p>
+                        </td>
+                    </article>
+                    <article>
+                        <td width="350">
+                            <a href="./blogs/Blog_Innovadora.html"><img src="https://cdn.prod.website-files.com/63c2c7b1f3d9c5a405335fd5/65e1cee58cdbf3ab08d196c2_Full-Stack-Marketer-1024x727.jpg"
+                                alt="Blog_Innovadora" width="300" height="180"></a>
+                            <h3>El Desarrollador Full-Stack Marketer: <br> Un Híbrido Innovador 
+                                en la Era Digital</h3>
+                            <p>En el vertiginoso mundo del desarrollo web <br>
+                                y el marketing digital, emerge una figura <br>
+                                revolucionaria: el desarrollador Full Stack <br>
+                                Marketer. Este híbrido entre desarrollador y...
+                            </p>
+                        </td>
+                    </article>
+                </tr>
+            </table>
+            <p>
+                Visitar la sección <a href="./vistas/Blog.html"><strong>Blog</strong></a>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <p>&copy; Conquer Crypto 2024 - <a href="./vistas/Aviso_Legal.html">Aviso Legal</a></p>
+    </footer>
+ </body>
+
+</html>

@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+
+    <!-- Título para el navegador y los buscadores -->
+    <title>Registro</title>
+
+    <!-- Descripción de la página para los buscadores -->
+    <meta name="description" content="Formulario de registro de la academia de ConquerBlocks">
+
+    <!-- Palabras clave para los buscadores -->
+    <meta name="keywords" content="web">
+
+    <!-- Autor de la página -->
+    <meta name="author" content="@sergiovez">
+
+    <!-- Favicon de la página -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+
+    <!-- Codificación-->
+    <meta charset="UTF-8">
+
+    <!-- Para que la web sea responsive -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Para algunos navegadores móviles -->
+    <meta name="theme-color" content="#1e7bbf">
+
+</head>
+
+<body>
+    <header>
+        <figure>
+            <img src="../conquer.png" alt="Logo de ConquerBlocks" width="336" height="40">
+        </figure>
+        <nav>
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="Quienes_somos.html">Quienes somos</a></li>
+                <li><a href="Cursos.html">Cursos</a></li>
+                <li><a href="Blog.html">Blog</a></li>
+                <li>Registro</li>
+                <li><a href="Login.html">Login</a></li>
+                <li><a href="Contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <br>
+        <h2>Registro</h2>
+        <p>
+            Para acceder a la plataforma es necesario registrarse.
+        </p>
+        <form action="" name="Registro" method="get" >
+            <p>
+                <label for="nombre">Nombre completo:&nbsp;</label>
+                <input type="text" id="nombre" size="30">
+            </p>
+            <p>
+                <label for="birth">Fecha de nacimiento:&nbsp;</label>
+                <input type="date" id="birth">
+            </p>
+            <p>
+                <label for="email">Email:&nbsp;</label>
+                <input type="email" id="email" size="42">
+            </p>
+            <p>
+                <label for="direccion">Dirección:&nbsp;</label>
+                <input type="text" id="direccion" size="38">
+            </p>
+            <p>
+                <label for="pagina">Página web:&nbsp;</label>
+                <input type="url" id="pagina" size="36">
+            </p>
+            <p>
+                <label for="foto">Foto:&nbsp;</label>
+                <input type="file" id="foto">
+            </p>
+            <p>
+                <label for="biografia">Biografia:&nbsp;</label><br>
+                <textarea name="biografia" id="biografia" cols="46" rows="5"></textarea>
+            </p>
+            <button>Enviar</button>
+            <input type="reset" value="Borrar formulario">
+        </form>
+    </main>
+    <footer>
+        <hr>
+        <p>&copy; Conquer Crypto 2024 - <a href="Aviso_Legal.html">Aviso Legal</a></p>
+    </footer>
+</body>
+
+</html>
